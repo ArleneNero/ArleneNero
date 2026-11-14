@@ -3,13 +3,6 @@
 <!-- Minimalist Dark Header Banner (Role Focused) -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,40:0f172a,75:1e293b,100:0284c7&height=180&section=header&text=AI%20%2F%20ML%20ENGINEER&fontSize=38&fontColor=ffffff&fontAlignY=45&desc=Specializing%20in%20NLP%2C%20Domain-Specific%20RAG%20and%20Predictive%20Systems&descSize=15&descAlignY=66" width="100%" alt="Header Banner" />
 
-<br/>
-
-<!-- Dynamic Animated Typing Line -->
-<a href="https://github.com/ArleneNero">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2600&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=620&lines=Building+Grounded+RAG+Pipelines+%26+Vector+Search;Predictive+ML+with+XGBoost+%26+Sentence-BERT;Translating+Complex+Data+into+Working+Systems;Open+for+Collabs+%26+AI%2FML+Engineering" alt="Typing SVG" />
-</a>
-
 <br/><br/>
 
 <!-- Status & Connect Badges -->
