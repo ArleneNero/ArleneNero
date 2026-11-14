@@ -8,8 +8,7 @@
   <a href="mailto:muhammadariefsyah00@gmail.com"><img src="https://img.shields.io/badge/Status-Open%20to%20Work-0284c7?style=flat-square&logo=target&logoColor=white" alt="Status" /></a>&nbsp;
   <img src="https://img.shields.io/badge/Focus-AI%20%2F%20ML%20Engineering-1e293b?style=flat-square&logo=python&logoColor=38bdf8" alt="Focus" />&nbsp;
   <img src="https://img.shields.io/badge/Location-Jakarta%2C%20ID-1e293b?style=flat-square&logo=googlemaps&logoColor=38bdf8" alt="Location" />&nbsp;
-  <a href="https://arlenenero.github.io/portofolio/"><img src="https://img.shields.io/badge/Portfolio-arlenenero.github.io-0f172a?style=flat-square&logo=safari&logoColor=38bdf8" alt="Portfolio" /></a>&nbsp;
-  <a href="mailto:muhammadariefsyah00@gmail.com"><img src="https://img.shields.io/badge/Email-muhammadariefsyah00%40gmail.com-1e293b?style=flat-square&logo=gmail&logoColor=ea4335" alt="Email" /></a>
+  <a href="https://arlenenero.github.io/portofolio/"><img src="https://img.shields.io/badge/Portfolio-arlenenero.github.io-0f172a?style=flat-square&logo=safari&logoColor=38bdf8" alt="Portfolio" /></a>
 </p>
 
 </div>
