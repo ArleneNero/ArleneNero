@@ -1,0 +1,46 @@
+name: Generate Arcade Contribution Graphs
+
+on:
+  schedule:
+    # Run automatically every 24 hours at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allows manual trigger from Actions tab
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Galaga Contribution Graph SVG
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: "galaga"
+
+      - name: Copy generated Galaga SVG to root
+        run: |
+          mkdir -p dist
+          if [ -f "dist/galaga-contribution-graph-dark.svg" ]; then
+            cp dist/galaga-contribution-graph-dark.svg ./arcade-contributions.svg
+          elif [ -f "dist/galaga-contribution-graph.svg" ]; then
+            cp dist/galaga-contribution-graph.svg ./arcade-contributions.svg
+          elif [ -f "dist/galaga.svg" ]; then
+            cp dist/galaga.svg ./arcade-contributions.svg
+          fi
+
+      - name: Commit and push updated arcade contributions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add arcade-contributions.svg
+          git commit -m "chore(bot): auto-sync arcade contributions with latest GitHub activity" || echo "No changes to commit"
+          git push origin main || echo "Nothing to push"
