@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Minimalist Dark Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,40:0f172a,75:1e293b,100:0284c7&height=190&section=header&text=Muhammad%20Ariefsyah&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20NLP%20and%20RAG%20Specialist&descSize=15&descAlignY=60" width="100%" alt="Header Banner" />
+<!-- Minimalist Dark Header Banner (Role Focused) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,40:0f172a,75:1e293b,100:0284c7&height=180&section=header&text=AI%20%2F%20ML%20ENGINEER&fontSize=38&fontColor=ffffff&fontAlignY=45&desc=Specializing%20in%20NLP%2C%20Domain-Specific%20RAG%20and%20Predictive%20Systems&descSize=15&descAlignY=66" width="100%" alt="Header Banner" />
 
 <br/>
 
@@ -26,8 +26,6 @@
 ---
 
 ### ⚡ What I Do
-
-Hey there! I'm **Ariefsyah** (or **ArleneNero** on GitHub). 
 
 I build practical, grounded AI and Machine Learning applications—focusing heavily on **domain-specific RAG**, **NLP evaluation**, and **time-series predictive modeling**. I care more about clean data pipelines, measurable validation (sMAPE, balanced F1, SHAP explainability), and robust server-side fallback handling than buzzword-heavy black boxes.
 
@@ -86,5 +84,5 @@ Always open to discussing AI systems, machine learning engineering, or interesti
 - 📍 **Location**: Jakarta, Indonesia
 
 <div align="center">
-  <sub>Built with clean engineering and grounded data pipelines. © 2026 Muhammad Ariefsyah</sub>
+  <sub>Built with clean engineering and grounded data pipelines.</sub>
 </div>
